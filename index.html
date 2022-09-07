@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" alt="style" />
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web\css\all.min.css" alt="style" />
+   
+  </head>
+  <body>
+    
+    <!-- Modal popup box -->
+    <div id="mpopupBox" class="mpopup">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">×</span>
+                <h2>Your Orders</h2>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="top-container">
+      <div class="logo-name"><h1>orderCoffee.Co</h1></div>
+        <div class="cart" onclick="openModal()"><i class='fas fa-shopping-cart'></i></div>
+    </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/coffee1.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/coffee2.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/coffee3.jpg" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="flex-container"></div>
+
+   <div class="bottom-container">
+    <p>@copyright 2022 FED Basic Assessment</p>
+   </div> 
+    <script type="text/javascript" src="script.js" alt="Javascript"></script>
+  </body>
+</html>
